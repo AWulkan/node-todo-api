@@ -24,28 +24,3 @@ app.post("/todos", (req, res) => {
 app.listen(3000, () => {
     console.log("Started on port 3000");
 });
-
-
-
-// let otherTodo = new Todo({
-//     text: "Something to do"
-// });
-
-// otherTodo.save().then((doc) => {
-//     console.log(JSON.stringify(doc, undefined, 2));
-// }, (e) => {
-//     console.log("Unable to save todo");
-// });
-
-// User model
-// Email property - require - trim - set type = string - set minlength to 1
-
-// let otherUser = new User({
-//     email: "test@example.com"
-// });
-
-// otherUser.save().then((doc) => {
-//     console.log("User saved", doc);
-// }, (e) => {
-//     console.log("Unable to save User");
-// });
