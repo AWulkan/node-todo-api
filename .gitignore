@@ -1,3 +1,4 @@
 node_modules/
 instructions.md
 playground/
+server/config/config.json
